@@ -203,7 +203,7 @@ header .home .item .item_box:hover img {
 
   header ul {
     background: #fff;
-    display: block;
+    display: none;
     transition: 0.5s;
     top: -20px;
     position: fixed;
@@ -751,5 +751,19 @@ footer .content li {
   footer .legal {
     font-size: 12px;
     padding: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
 }
