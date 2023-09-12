@@ -41,8 +41,8 @@ html {
 
 /*----global ----*/
 header {
-  background-image: url("../image/back.jpg");
-  background-size: cover;
+  background-image: url("../image/back.jpeg");
+  background-size:cover;
   height: 100%;
 }
 
@@ -203,7 +203,7 @@ header .home .item .item_box:hover img {
 
   header ul {
     background: #fff;
-    display: none;
+    display: block;
     transition: 0.5s;
     top: -20px;
     position: fixed;
@@ -620,7 +620,7 @@ footer .content li {
   /*---------------about--------*/
   .left,
   .right {
-    width: 100%;
+    width: 80%;
     padding: 40px;
   }
 
@@ -652,6 +652,9 @@ footer .content li {
 }
 
 @media only screen and (max-width: 500px) {
+
+  
+
   .flex1 {
     display: flex;
     justify-content: space-between;
@@ -761,9 +764,9 @@ footer .content li {
 
 
 
-
+/* 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: white;
   }
-}
+} */
